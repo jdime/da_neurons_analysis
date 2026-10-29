@@ -1,0 +1,13 @@
+scanpy>=1.11  # 1.10 breaks set_figure_params with IPython 9
+anndata>=0.11  # 0.10 fails backed row subsetting with scipy>=1.15
+bbknn>=1.6
+scikit-image   # scrublet's automatic threshold
+requests
+pandas
+numpy
+scipy
+matplotlib
+plotly>=5      # interactive volcano plot
+nbformat>=4.2  # plotly's fig.show() in notebooks
+jupyterlab
+ipykernel
