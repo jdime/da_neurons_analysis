@@ -96,6 +96,12 @@ ANNOY_COMPILER_ARGS="-D_CRT_SECURE_NO_WARNINGS,-fpermissive,-O3,-DANNOYLIB_MULTI
   pip install --force-reinstall --no-deps --no-binary annoy --no-cache-dir annoy==1.17.3
 ```
 
+## Contributing
+
+Make changes on a branch and open a pull request into `main`. Fill in the PR template
+([`.github/pull_request_template.md`](.github/pull_request_template.md)), which GitHub
+loads into the description automatically.
+
 ## Acknowledgements
 
 This repository is inspired in code developed in
